@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* outline: 1px solid red; */
+    /* outline, borde que no afecta al tamaño. Tiene los mismos valores que border. Para poder ver que todos los elementos los toma como cajas*/
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cabcf5;
+}
+.article{
+    width: 90%;
+    max-width: 415px;
+    background-color: aliceblue;
+    margin: 40px auto;
+    padding: 30px 10px;
+    /* redondeando bordes */
+    border-radius: 10px;
+}
+.img{
+    /* para quitar el espaciado de la img */
+    display: block;
+
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+.paragraph{
+    text-align: center;
+    margin: 10px 0 20px;
+}
+.cta{
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+
+    display: block;
+    width: 150px;
+    text-align: center;
+    padding: 11px 0;
+    margin: 0 auto;
+}
